@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: x-large;
+            padding: 5px;
+        }
+        th {
+            background-color: brown;
+            text-align: center;
+        }
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+            15% {
+                background-color: orange;
+            }
+            30% {
+                background-color: yellow;
+            }
+            45% {
+                background-color: green;
+            }
+            60% {
+                background-color: blue;
+            }
+            75% {
+                background-color: white;
+            }
+            90% {
+                background-color: violet;
+            }
+            100% {
+                background-color: pink;
+            }
+        }
+
+        .blinking {
+            animation: blink 1s infinite;
+        }
+        @keyframes moveBackAndForth {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(500px); /* Adjust the distance as needed */
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .moving-text {
+            animation: moveBackAndForth 0.5s linear infinite;
+        }
+    </style>
+</head>
+<body style="background-color: chocolate;">
+    <p>Hello, world!</p>
+    <b><p style="background-color: tomato;">Okei normaalne</p></b>
+    <hr>
+    <h1 style="text-align: center;">proovime mis see teeb</h1>
+    <div class="blinking">
+    <h1 class="moving-text">233163</h1>
+    </div>
+    <h3 style="color: blueviolet;">kui suur see on</h3>
+    <hr>
+    <pre>
+        See pidi siis
+        säilitama oma 
+        kuju.      Nii ongi
+    </pre>
+    <button>Vajuta siia</button>
+    <a href="https://www.diskmat.ee">Ära siia vajuta</a>
+    Siia <mark>ei saagi</mark> vajutada
+    <br>
+    <img src="https://i.insider.com/5b1166791ae66221008b4755?width=1000&format=jpeg&auto=webp" alt="bron game 1" width="300">
+    <br>
+    <h5>Väike korrutustabel</h5>
+    <table >
+        <tr>
+            <th>x</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+            <td>12</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>4</td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <img src="https://thespun.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTgzMTI5MzMyNTgwNzU0Nzg0/jr-smith.webp" alt="jrsmith" width="300">
+    <h2 style="border: 2px dotted brown; text-align: right;">Kuhu see pealkiri nüüd läks?</h2>
+    <a href="https://taltech.ee/akadeemiline-puhkus" title="abi" style="font-size: 24px; color: white;">Kui enam ei jaksa, siis siit võib saada mingit sorti abi</a>
+    <h2 style="text-align: center; color: rgb(17, 195, 17);">233163</h2>
+</body>
+</html> 
